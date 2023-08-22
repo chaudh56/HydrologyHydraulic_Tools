@@ -13,7 +13,7 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 import pandas as pd
 
-df = pd.read_csv(r"C:\Users\pb062627\Documents\GitHub\HydrologyHydraulic_Tools\Optimatics_Pareto_Dashboarding\data/RawData.csv")
+df = pd.read_csv(r"..\data\RawData.csv")
 
 app = dash.Dash(__name__)
 
